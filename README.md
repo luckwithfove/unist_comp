@@ -1,25 +1,29 @@
 # FinanceRAG: ACM-ICAIF '24 Finance RAG Challenge
 
-* Documentation: Refer to the report [here](./JW_ACM-ICAIF24.pdf)
+* Documentation: Refer to the [report](./JW_ACM-ICAIF24.pdf)
 
 * kaggle dataset: 
     `https://www.kaggle.com/competitions/icaif-24-finance-rag-challenge/data` -> `data/`
 
-* baseline: 
-    `https://github.com/linq-rag/FinanceRAG` -> `./`
+* baseline source: 
+    `git clone https://github.com/linq-rag/FinanceRAG <destination-directory>`
 
-* modified to baseline: 
+* modifications to the baseline: 
 
     `FinanceRAG/financerag/tasks/BaseTask.py` -> `FinanceRAG/financerag/tasks/BaseTask_old.py`
 
     `FinanceRAG/financerag/tasks/BaseTask.py`
 
-* new class method in `BaseTask.py`: \
+* additional class methods in `BaseTask.py`: \
    `create_hybrid_retriever` \
    `hybrid_retrieve_rerank` \
    `async_hybrid_retrieve_rerank`
 
 * installation:
+```bash
+conda create -n ACM_FinRAG python=3.10
+conda activate ACM_FinRAG
+```
 ```bash
 git clone https://github.com/wangjing0/ACM_FinRAG.git
 cd ACM_FinRAG/FinanceRAG
