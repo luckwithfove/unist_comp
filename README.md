@@ -1,8 +1,6 @@
 # FinanceRAG: ACM-ICAIF '24 Finance RAG Challenge
 
-* Documentation:
-
-Refer to the report [here](./JW_ACM-ICAIF24.pdf)
+* Documentation: Refer to the report [here](./JW_ACM-ICAIF24.pdf)
 
 * kaggle dataset: 
     `https://www.kaggle.com/competitions/icaif-24-finance-rag-challenge/data` -> `data/`
