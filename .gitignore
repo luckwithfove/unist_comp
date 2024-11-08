@@ -1,4 +1,6 @@
 results/*/*
-Data/*
+data/*/*
+data/*.tsv
+data/*.csv
 *.pyc
 *.ipynb
