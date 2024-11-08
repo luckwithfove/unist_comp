@@ -1,0 +1,16 @@
+datasets~=3.0.0
+pydantic~=2.9.2
+pytrec_eval~=0.5
+typing_extensions~=4.12.2
+numpy==1.26.4
+torch~=2.2.2
+nltk~=3.9.1
+sentence-transformers~=3.1.1
+openai~=1.47.1
+lancedb~=0.14.0
+pandas
+langchain
+cohere==5.5.4
+tiktoken
+tantivy==0.20.1
+rerankers==0.5.3

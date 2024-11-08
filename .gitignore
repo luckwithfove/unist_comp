@@ -1,0 +1,4 @@
+results/*/*
+Data/*
+*.pyc
+*.ipynb
