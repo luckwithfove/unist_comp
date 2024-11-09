@@ -21,7 +21,7 @@
 
 * installation:
 ```bash
-conda create -n ACM_FinRAG python=3.10
+conda create -n ACM_FinRAG python=3.11
 conda activate ACM_FinRAG
 ```
 ```bash
@@ -35,7 +35,13 @@ pip install -r requirements.txt
 
 import pandas
 from financerag.tasks import (
-    FinQABench,
+    ConvFinQA, 
+    FinanceBench, 
+    FinDER, 
+    FinQA,
+    FinQABench, 
+    MultiHiertt, 
+    TATQA
 )
 
 def get_evalset(dataset_name):
@@ -60,3 +66,7 @@ metrics = task.evaluate(qrels=qrels, results=task.rerank_results, k_values=[10])
 output_dir = '../results/test_results'
 task.save_results(output_dir=output_dir, top_k=10)
 ```
+
+* GPU setup:
+    - NVIDIA A100 80GB 
+    - execution time: 39mins
