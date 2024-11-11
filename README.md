@@ -69,4 +69,4 @@ task.save_results(output_dir=output_dir, top_k=10)
 
 * GPU setup:
     - NVIDIA A100 80GB 
-    - execution time: 39mins
+    - execution time for all tasks: 39mins
